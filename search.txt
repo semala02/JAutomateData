@@ -1,0 +1,4 @@
+Click "{ImageFolder}/14604522609783.png"
+Type "adidas stan smith"
+Type [ENTER]
+Wait 3000

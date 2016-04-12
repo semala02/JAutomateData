@@ -1,0 +1,15 @@
+Begin Settings
+	StopIfFailed No
+	WaitStableScreen Yes
+	ManualRecovery Yes
+	Doctor No
+End
+Timestamp
+Set Date "{Timestamp}"
+//ClearLog /home/etxmsl/Skrivbord/JAutomateData/pricerunner.csv
+Log /home/etxmsl/Skrivbord/JAutomateData/pricerunner.csv  , "name" "surname"
+Log /home/etxmsl/Skrivbord/JAutomateData/pricerunner.csv  , "Martin" "Landhage"
+Log /home/etxmsl/Skrivbord/JAutomateData/pricerunner.csv , "{Date}" 
+Call /home/etxmsl/Skrivbord/JAutomateData/LoadPage.txt
+Call /home/etxmsl/Skrivbord/JAutomateData/search.txt
+Call /home/etxmsl/Skrivbord/JAutomateData/settingsandverify.txt

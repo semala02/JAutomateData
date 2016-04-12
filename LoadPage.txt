@@ -1,0 +1,3 @@
+Click "{ImageFolder}/1460452818962.png" 18 61
+Type pricerunner.se
+Type [ENTER]
